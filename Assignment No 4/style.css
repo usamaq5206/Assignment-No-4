@@ -1,0 +1,146 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+header {
+    padding: 10px;
+    box-shadow: 0 1px 5px rgb(60, 56, 56);
+    
+}
+.nav-bar span {
+    font-weight: bolder;
+}
+.nav-bar p{
+    display: inline-block;
+    width: 78%;
+    letter-spacing: 3px;
+    font-size: small;
+    
+}
+
+.nav-bar a {
+    text-decoration: none;
+    margin: 0 10px;
+    letter-spacing: 3px;
+    font-size: small;
+    color: black;
+}
+main {
+    width: 80%;
+    margin: 0 auto;
+}
+.sectionA {
+    background-image: url(assets/images/architect.jpg);
+    background-position: center;
+    height: 550px;
+
+}
+.sectionA p {
+    display: inline-block;
+    font-size: 28px;
+    color: white;
+    margin-left: 43%;
+    margin-top: 25%;
+    letter-spacing: 4px;
+}
+.sectionA span {
+    background-color: black;
+    font-weight: bold;
+    padding: 9px 10px;
+    opacity: 0.7;
+
+}
+footer {
+    padding: 20px;
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+.sectionB h4 {
+    padding: 10px;
+    box-shadow: 0px 2px rgb(218, 216, 216);
+
+}
+.sectionC .title {
+    padding: 10px;
+    box-shadow: 0px 2px rgb(218, 216, 216);
+
+}
+.sectionB {
+    padding: 0px 8px;
+}
+.box {
+    
+    margin: 5px;
+    width: 255px;
+    height: 180px;
+}
+.sectionB .projects {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+img {
+    width: 255px;
+    height: 180px;
+}
+.box .top_left {
+    position: absolute;
+    background-color: black;
+    color: white;
+    letter-spacing: 1px;
+    padding: 7px;
+    font-size: 12px;
+    opacity: 0.8;
+}
+.sectionC p {
+    
+    font-size: 12px;
+    
+}
+.sectionC .container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.sectionC .card {
+    margin: 5px;
+}
+.sectionC button {
+    padding: 5px;
+    width: 100%;
+    border: none;
+}
+.card h5 {
+    opacity: 0.5;
+}
+.sectionD h4 {
+    padding: 10px;
+    box-shadow: 0px 2px rgb(218, 216, 216);
+}
+.sectionD p {
+    font-size: 12px;
+}
+.sectionD input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+.sectionD button {
+    padding: 8px;
+    background-color: black;
+    color: white;
+    margin-top: 10px;
+    font-size: 10px;
+}
+.map img {
+    width: 100%;
+    height: 600px;
+}
+footer {
+    letter-spacing: 1px;
+    font-size: small;
+}
